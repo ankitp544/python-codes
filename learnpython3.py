@@ -200,9 +200,9 @@ li[::2]   # =>[1, 4]
 li[::-1]  # => [3, 4, 2, 1]
 # Use any combination of these to make advanced slices
 # li[start:end:step]
-li.append(10)
-new_li=li[1:5:3]
-print(new_li[0],new_li[1])
+#li.append(10)
+#new_li=li[1:5:3]
+#print(new_li[0],new_li[1])
 # Make a one layer deep copy using slices
 li2 = li[:]  # => li2 = [1, 2, 4, 3] but (li2 is li) will result in false.
 
@@ -211,7 +211,7 @@ del li[2]  # li is now [1, 2, 3]
 
 # Remove first occurrence of a value
 li.remove(2)  # li is now [1, 3]
-li.remove(2)  # Raises a ValueError as 2 is not in the list
+#li.remove(2)  # Raises a ValueError as 2 is not in the list
 
 # Insert an element at a specific index
 li.insert(1, 2)  # li is now [1, 2, 3] again
@@ -315,6 +315,7 @@ del filled_dict["one"]  # Removes the key "one" from filled dict
 # From Python 3.5 you can also use the additional unpacking options
 {'a': 1, **{'b': 2}}  # => {'a': 1, 'b': 2}
 {'a': 1, **{'a': 2}}  # => {'a': 2}
+adfsdf
 
 
 
